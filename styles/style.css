@@ -73,7 +73,109 @@ nav{
     height: 50px;
 }
 /* Choose Your Destination section */
+.Choose-Your-Destination{
+    padding-top: 20px;
+}
+.Choose-Your-Destination-Haed{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.row1{
+    width: 573px;
+    height: 300px;
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.row2{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.row21{
+    width: 374px;
+    height: 286px;
+}
+.row22{
+    width: 474px;
+    height: 286px;
+}
+.row23{
+    width: 274px;
+    height: 286px;
+}
+.row3{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.row31{
+    width: 473px;
+    height: 300px;
+}
+.row32{
+    width: 673px;
+    height: 300px;
+}
+/* Why Choose Us section */
+.Why-Choose-Us{
 
+}
+.Why-Choose-Us-Haed{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;   
+}
+.Why-Choose-Us-Paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Amet-head{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Amet-paragraph{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.amet-column{
+    display: flex;
+
+}
+.amet-column1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.amet-column2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.amet-column3{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05)
+}
 /* Newsletter section */
 .newsletter{
     display: flex;
