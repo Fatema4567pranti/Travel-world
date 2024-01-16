@@ -226,6 +226,7 @@ nav{
     text-align: center;
     padding: 70px 70px;
     border-radius: 16px;
+    padding-top: 20px;
 }
 .display{
     display: flex;
@@ -247,4 +248,18 @@ nav{
 }
 .Social-images{
     text-align: center;
+    color: #131318;
+}
+
+/* responsive style */
+@media screen and(max-width: 576px){
+  .nav{
+    flex-direction: column;
+  }  
+  .our-popular-tours{
+    flex-direction: column;
+  }
+  .row1{
+    flex-direction: column;
+  }
 }
