@@ -126,8 +126,8 @@ nav{
     height: 300px;
 }
 /* Why Choose Us section */
-.Why-Choose-Us{
-
+.Why-Choose-Us-column{
+  gap: 30px;
 }
 .Why-Choose-Us-Haed{
     color: #131318;
@@ -160,7 +160,9 @@ nav{
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
+    background: #fbb5630d;
+    padding-top: 25px;
+    padding-left: 25px;
 }
 .amet-column2{
     width: 573px;
@@ -168,13 +170,17 @@ nav{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+    padding-top: 25px;
+    padding-left: 25px: ;
 }
 .amet-column3{
     width: 573px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05)
+    background: rgba(233, 68, 68, 0.05);
+    padding-top: 25px;
+    padding-left: 25px;
 }
 /* Newsletter section */
 .newsletter{
@@ -186,7 +192,32 @@ nav{
     width: 393px;
     height: 52px;
 }
+.newsletter-class{
+    width: 750px;
+    border: 3px solid #FF5400;
+    border-radius: 16px;
+}
 .newsletter-image{
+    padding-left: 50px;
+}
+#name{
+    margin-bottom: 15px;
+}
+#email{
+    margin-bottom: 15px;
+}
+.Subscribe{
+    background-color: #FF5400;
+}
+/* .travel bangladesh */
+.Travel-Bangladesh{
+    text-align: center;
+    color: #131318;
+}
+.bangladesh1{
+    padding-left: 150px;
+}
+.bangladesh-paragraph{
     
 }
 /* footer section  */
@@ -194,6 +225,7 @@ nav{
     background-color: #1313180D;
     text-align: center;
     padding: 70px 70px;
+    border-radius: 16px;
 }
 .display{
     display: flex;
@@ -212,4 +244,7 @@ nav{
 }
 .hr{
     padding: 0 150px;
+}
+.Social-images{
+    text-align: center;
 }
